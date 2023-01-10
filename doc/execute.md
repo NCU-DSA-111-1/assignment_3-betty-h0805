@@ -10,8 +10,11 @@ cd bin
 
 ## Arithmetic
 進入 `arcd` 資料夾
+-c 為 encode
+-d 為 decode
 ```
 cd arcd
-./arcd -i <input filename> -o <input filename>
+./arcd (-c or -d)-i <input filename> -o <input filename>
+```
 
-![](https://i.imgur.com/rn1UF8B.png)
+![](https://i.imgur.com/wknlsMx.png)
